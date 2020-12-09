@@ -52,3 +52,60 @@
 //	}
 //	system("pause");
 //}
+
+
+
+//#include<iostream>
+//#include<string>
+//
+//using namespace std;
+//
+//int main() {
+//	string s,n;
+//	cout << "enter the first string: ";
+//	getline(cin,s);
+//	cout << "capitalized string: ";
+//	for (int i = 0; i < s.size(); i++) {
+//		if (s[i] >= 'A' && s[i] <= 'Z') {
+//			cout << s[i];
+//		}
+//	}
+//	
+//	return 0;
+//}
+//
+
+
+
+//#include<iostream>
+//#include<string>
+//
+//using namespace std;
+//
+//void dem(string s, string n) {
+//	int t = 0;
+//	for (int i = 0; i < s.size(); i++) {
+//		int k = 0;
+//		for (int j = 0; j < n.size(); j++) {
+//			if (s[i] == n[0] && s[i+j] == n[j]) {
+//				k++;
+//			}
+//		}
+//		if (k == n.size()) {
+//			t++;
+//		}
+//		else {
+//			k = 0;
+//		}
+//	}
+//	cout << "number of second string occurrences in first string: " << t;
+//}
+//int main() {
+//	string s, n;
+//	cout << "enter the first string: ";
+//	getline(cin, s);
+//	cout << "enter the second string: ";
+//	getline(cin, n);
+//	dem(s, n);
+//	return 0;
+//}
