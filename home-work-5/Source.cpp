@@ -1,11 +1,10 @@
-//#include<iostream>
+﻿////Формула Эвклида
 //
+//#include<iostream>
 //using namespace std;
 //
-////Algorithm Eculide
-//int euclid(int a, int b)
-//{
 //
+//int euclid(int a, int b){
 //	return (b == 0) ? a : euclid(b, a % b);
 //}
 //
@@ -25,6 +24,11 @@
 
 
 
+
+
+
+////Решето Эратосфена
+//
 //#include<iostream>
 //
 //using namespace std;
@@ -36,7 +40,6 @@
 //	for (int i = 0; i <= n; i++) {
 //		a[i] = true;
 //	}
-//
 //	for (int i = 2; i <= n; i++) {
 //		if (a[i] == true) {
 //			for (int j = 2 * i; j <= n; j += i) {
@@ -44,7 +47,6 @@
 //			}
 //		}
 //	}
-//
 //	for (int i = 2; i <= n; i++) {
 //		if (a[i] == true) {
 //			cout << i << " ";
@@ -55,28 +57,9 @@
 
 
 
-//#include<iostream>
-//#include<string>
-//
-//using namespace std;
-//
-//int main() {
-//	string s,n;
-//	cout << "enter the first string: ";
-//	getline(cin,s);
-//	cout << "capitalized string: ";
-//	for (int i = 0; i < s.size(); i++) {
-//		if (s[i] >= 'A' && s[i] <= 'Z') {
-//			cout << s[i];
-//		}
-//	}
-//	
-//	return 0;
-//}
-//
 
 
-
+////Обработка текстовый файлов ( Твой вариант 25 )
 //#include<iostream>
 //#include<string>
 //

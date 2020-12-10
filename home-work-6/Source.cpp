@@ -1,3 +1,4 @@
+﻿//// Задачи для подготовки к экзамену. Ряды .
 //#include <iostream>
 //
 //using namespace std;
@@ -21,7 +22,6 @@
 //			x = c / pow(2, i);
 //			arr[i] = x % 2;
 //		}
-//		//cout << arr[i];
 //	}
 //	for (int i = m-1; i >= 0; i--) {
 //		cout << arr[i];
@@ -33,10 +33,10 @@
 //	int arr2[100];
 //	int n;
 //	double s ;
-//	cout << "nhap so phan tu cua mang: ";
+//	cout << "Enter the number of elements in the array: ";
 //	cin >> n;
 //	for (int i = 0; i < n; i++) {
-//		cout << "phan tu ( 0<= x <=4 ) thu " << i << ":";
+//		cout << "element ( 0<= x <=4 )  " << i << ":";
 //		cin >> arr1[i];
 //	}
 //	cout << "base 5: ";
