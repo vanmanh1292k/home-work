@@ -54,3 +54,74 @@
 //
 //	return 0;
 //}
+
+
+
+
+//#include<iostream>
+//#include<stdio.h>
+//#include<fstream>
+//#include <math.h>
+//
+//using namespace std;
+//
+//int main()
+//{
+//	string a[1000];
+//	int n;
+//	cout << "enter the line number: ";
+//	cin >> n;
+//	ofstream fileOutput("c");
+//
+//	if (fileOutput.fail())
+//	{
+//		cout << "File cannot open!" << endl;
+//		return 0;
+//	}
+//
+//	cout << "Please enter your text " << endl;
+//	for (int i = 0; i < n; i++)
+//	{
+//		cin >> a[i];
+//		fileOutput << a[i];
+//		fileOutput << "\t";
+//	}
+//
+//	fileOutput.close();
+//
+//	ifstream fileInput("C:\\Users\\Ngvmanh129\\source\\repos\\home-work\\home-work-6\\c");
+//	string data;
+//
+//	if (fileInput.fail())
+//	{
+//		cout << "Cannot open this file!" << endl;
+//		return 0;
+//	}
+//
+//	string s;
+//	int t = 0;
+//	for (int i = 0; i < n; i++){
+//		s = a[i];
+//		int k = 1;
+//		for (int j = 0; j < s.size(); j++) {
+//			if (s[j] < s[j + 1]) {
+//				k++;
+//			}
+//		}
+//		if (k == s.size()) {
+//			t++;
+//		}
+//		else {
+//			k = 1;
+//		}
+//	}
+//	cout << "Number of lines of text characters incrementally: "<< t << endl;
+//
+//	fileInput.close();
+//
+//	system("pause");
+//	return 0;
+//}
+
+
+
