@@ -68,7 +68,7 @@ void NextGen(int a[][MAX], int future[][MAX], int m, int n) { // The he tiep the
 }
 
 
-void aTob(int a[][MAX], int b[][MAX], int m, int n) { //Chuyen de lap
+void aTob(int a[][MAX], int b[][MAX], int m, int n) { // Chuyen de lap
 	for (int i = 0; i < m; i++) {
 		for (int j = 0; j < n; j++) {
 			a[i][j] = b[i][j];
