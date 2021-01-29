@@ -51,7 +51,7 @@ int Random() {
 }
 
 
-void DecToFour(int a[], int n) { // n la so(dec) bien doi sang mang rd 4 phan tu
+void DecToFour(int a[], int n) { //n la so(dec) bien doi sang mang rd 4 phan tu
 	if (n < 1000) {
 		a[0] = 0;
 		a[1] = n / 100;
